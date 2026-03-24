@@ -1,0 +1,38 @@
+.blurwp-block-preview {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.blurwp-block-preview img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.blurwp-block-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.blurwp-block-preview:hover .blurwp-block-overlay {
+    opacity: 1;
+}
+
+.wp-block-blurwp-image {
+    margin: 0;
+}
+
+.wp-block-blurwp-image img {
+    max-width: 100%;
+    height: auto;
+}

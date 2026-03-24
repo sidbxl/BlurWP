@@ -1,0 +1,434 @@
+# BlurWP - Face Anonymization
+# Copyright (C) 2024 BlurWP Team
+# This file is distributed under the GPL v2 or later.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: BlurWP - Face Anonymization 1.0.0\n"
+"POT-Creation-Date: 2024-03-07 00:00+0000\n"
+"PO-Revision-Date: 2024-03-07 00:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: BlurWP 1.0.0\n"
+"X-Domain: blurwp\n"
+
+#: blurwp.php:25
+msgid "BlurWP requires PHP 7.4 or higher."
+msgstr ""
+
+#: includes/class-settings.php:40
+msgid "BlurWP Settings"
+msgstr ""
+
+#: includes/class-settings.php:41
+msgid "BlurWP"
+msgstr ""
+
+#: includes/class-settings.php:55
+msgid "Face Anonymization Settings"
+msgstr ""
+
+#: includes/class-settings.php:62
+msgid "Default Style"
+msgstr ""
+
+#: includes/class-settings.php:70
+msgid "Default Intensity"
+msgstr ""
+
+#: includes/class-settings.php:78
+msgid "Default Expand Range (%)"
+msgstr ""
+
+#: includes/class-settings.php:86
+msgid "Auto-process on Upload"
+msgstr ""
+
+#: includes/class-settings.php:94
+msgid "Keep Original Images"
+msgstr ""
+
+#: includes/class-settings.php:132
+msgid "Save Settings"
+msgstr ""
+
+#: includes/class-settings.php:145
+msgid "Blur"
+msgstr ""
+
+#: includes/class-settings.php:148
+msgid "Pixelate"
+msgstr ""
+
+#: includes/class-settings.php:151
+msgid "Default anonymization style for new images."
+msgstr ""
+
+#: includes/class-settings.php:161
+msgid "Blur strength (1-50) or pixel size for pixelate."
+msgstr ""
+
+#: includes/class-settings.php:171
+msgid "Expand the face area by this percentage."
+msgstr ""
+
+#: includes/class-settings.php:182
+msgid "Automatically detect and anonymize faces when uploading images"
+msgstr ""
+
+#: includes/class-settings.php:194
+msgid "Keep original (un-anonymized) images as backup"
+msgstr ""
+
+#: includes/class-rest-api.php:60
+msgid "Missing required parameters."
+msgstr ""
+
+#: includes/class-rest-api.php:69
+#: includes/class-rest-api.php:153
+msgid "Invalid attachment ID."
+msgstr ""
+
+#: includes/class-rest-api.php:77
+msgid "You do not have permission to modify this attachment."
+msgstr ""
+
+#: includes/class-rest-api.php:85
+msgid "The attachment is not an image."
+msgstr ""
+
+#: includes/class-rest-api.php:101
+#: includes/class-rest-api.php:289
+msgid "Failed to create backup of original image."
+msgstr ""
+
+#: includes/class-rest-api.php:111
+#: includes/class-rest-api.php:162
+#: includes/class-rest-api.php:255
+msgid "Could not locate attachment file."
+msgstr ""
+
+#: includes/class-rest-api.php:125
+msgid "Failed to save processed image."
+msgstr ""
+
+#: includes/class-rest-api.php:142
+msgid "Image processed successfully."
+msgstr ""
+
+#: includes/class-rest-api.php:173
+msgid "You do not have permission to restore this attachment."
+msgstr ""
+
+#: includes/class-rest-api.php:186
+#: includes/class-rest-api.php:269
+msgid "Invalid backup file location."
+msgstr ""
+
+#: includes/class-rest-api.php:194
+msgid "No backup file found for this image."
+msgstr ""
+
+#: includes/class-rest-api.php:203
+msgid "Failed to restore image from backup."
+msgstr ""
+
+#: includes/class-rest-api.php:216
+msgid "Image restored successfully."
+msgstr ""
+
+#: includes/class-rest-api.php:234
+msgid "Invalid settings format."
+msgstr ""
+
+#: includes/class-rest-api.php:245
+msgid "Settings updated successfully."
+msgstr ""
+
+#: includes/class-rest-api.php:269
+msgid "Invalid backup path."
+msgstr ""
+
+#: includes/class-rest-api.php:322
+msgid "Invalid base64 image data."
+msgstr ""
+
+#: includes/class-rest-api.php:334
+msgid "Only JPEG, PNG, and WebP images are allowed."
+msgstr ""
+
+#: includes/class-rest-api.php:343
+msgid "Image exceeds maximum upload size."
+msgstr ""
+
+#: includes/class-media.php:52
+#, php-format
+msgid "Anonymize faces in %s"
+msgstr ""
+
+#: includes/class-media.php:54
+#: includes/class-media.php:80
+#: includes/class-media.php:115
+#: includes/class-media.php:188
+msgid "Anonymize Faces"
+msgstr ""
+
+#: includes/class-media.php:55
+#: includes/class-media.php:189
+msgid "Edit Anonymization"
+msgstr ""
+
+#: includes/class-media.php:70
+#, php-format
+msgid "Restore original %s"
+msgstr ""
+
+#: includes/class-media.php:71
+msgid "Are you sure you want to restore the original image?"
+msgstr ""
+
+#: includes/class-media.php:72
+msgid "Restore Original"
+msgstr ""
+
+#: includes/class-media.php:126
+msgid "Invalid attachment ID."
+msgstr ""
+
+#: includes/class-media.php:132
+msgid "You do not have permission to restore this image."
+msgstr ""
+
+#: includes/class-media.php:190
+msgid "editAnonymization"
+msgstr ""
+
+#: includes/class-media.php:191
+#: includes/class-blurwp.php:141
+msgid "Processing..."
+msgstr ""
+
+#: includes/class-media.php:192
+#: includes/class-blurwp.php:155
+msgid "An error occurred."
+msgstr ""
+
+#: includes/class-media.php:193
+msgid "Bulk Face Anonymization"
+msgstr ""
+
+#: includes/class-media.php:194
+#: includes/class-blurwp.php:142
+msgid "Processing"
+msgstr ""
+
+#: includes/class-media.php:195
+msgid "of"
+msgstr ""
+
+#: includes/class-media.php:196
+msgid "Skip"
+msgstr ""
+
+#: includes/class-media.php:197
+msgid "Stop"
+msgstr ""
+
+#: includes/class-media.php:198
+msgid "Are you sure you want to stop bulk processing?"
+msgstr ""
+
+#: includes/class-media.php:199
+msgid "Bulk processing complete!"
+msgstr ""
+
+#: includes/class-blurwp.php:119
+msgid "BlurWP Face Blur Editor"
+msgstr ""
+
+#: includes/class-blurwp.php:120
+msgid "Close"
+msgstr ""
+
+#: includes/class-blurwp.php:121
+msgid "Detection Sensitivity"
+msgstr ""
+
+#: includes/class-blurwp.php:122
+msgid "Blur Style"
+msgstr ""
+
+#: includes/class-blurwp.php:123
+msgid "Gaussian Blur"
+msgstr ""
+
+#: includes/class-blurwp.php:124
+msgid "Pixelate"
+msgstr ""
+
+#: includes/class-blurwp.php:125
+msgid "Intensity"
+msgstr ""
+
+#: includes/class-blurwp.php:126
+msgid "Expand Area"
+msgstr ""
+
+#: includes/class-blurwp.php:127
+msgid "Add Face"
+msgstr ""
+
+#: includes/class-blurwp.php:128
+msgid "Remove Selected"
+msgstr ""
+
+#: includes/class-blurwp.php:129
+msgid "Re-detect"
+msgstr ""
+
+#: includes/class-blurwp.php:130
+msgid "Faces detected"
+msgstr ""
+
+#: includes/class-blurwp.php:131
+msgid "Preview"
+msgstr ""
+
+#: includes/class-blurwp.php:132
+msgid "Download Preview"
+msgstr ""
+
+#: includes/class-blurwp.php:133
+msgid "Save & Replace"
+msgstr ""
+
+#: includes/class-blurwp.php:134
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-blurwp.php:135
+msgid "Are you sure you want to replace the original image?"
+msgstr ""
+
+#: includes/class-blurwp.php:136
+msgid "You have unsaved changes. Are you sure you want to close?"
+msgstr ""
+
+#: includes/class-blurwp.php:137
+msgid "Failed to load image"
+msgstr ""
+
+#: includes/class-blurwp.php:138
+msgid "Failed to detect faces"
+msgstr ""
+
+#: includes/class-blurwp.php:139
+msgid "Failed to save image"
+msgstr ""
+
+#: includes/class-blurwp.php:140
+msgid "Image saved successfully!"
+msgstr ""
+
+#: includes/class-blurwp.php:141
+msgid "Saving..."
+msgstr ""
+
+#: includes/class-blurwp.php:142
+msgid "Detecting faces..."
+msgstr ""
+
+#: includes/class-blurwp.php:143
+msgid "Preview Comparison"
+msgstr ""
+
+#: includes/class-blurwp.php:144
+msgid "Original"
+msgstr ""
+
+#: includes/class-blurwp.php:145
+msgid "Processed"
+msgstr ""
+
+#: includes/class-blurwp.php:146
+msgid "The original image will be kept for 5 minutes and can be restored."
+msgstr ""
+
+#: includes/class-blurwp.php:147
+msgid "Warning: The original image will be permanently replaced."
+msgstr ""
+
+#: includes/class-blurwp.php:148
+msgid "I have downloaded and verified the preview"
+msgstr ""
+
+#: includes/class-blurwp.php:149
+msgid "Replace Image"
+msgstr ""
+
+#: includes/class-blurwp.php:150
+msgid "Undo"
+msgstr ""
+
+#: includes/class-blurwp.php:151
+msgid "Image restored successfully!"
+msgstr ""
+
+#: includes/class-blurwp.php:152
+msgid "Failed to restore image"
+msgstr ""
+
+#: includes/class-blurwp.php:153
+msgid "Confirm Image Replacement"
+msgstr ""
+
+#: includes/class-blurwp.php:154
+msgid "Network error. Please check your connection."
+msgstr ""
+
+#: includes/class-blurwp.php:155
+msgid "Invalid attachment or permission denied."
+msgstr ""
+
+#: includes/class-blurwp.php:156
+msgid "Invalid image format."
+msgstr ""
+
+#: includes/class-blurwp.php:157
+msgid "File not found."
+msgstr ""
+
+#: includes/class-blurwp.php:158
+msgid "Failed to save image."
+msgstr ""
+
+#: includes/class-blurwp.php:159
+msgid "No backup available for restore."
+msgstr ""
+
+#: includes/class-blurwp.php:160
+msgid "Failed to restore image."
+msgstr ""
+
+#: includes/class-blurwp.php:161
+msgid "An unknown error occurred."
+msgstr ""
+
+#: includes/class-blurwp.php:162
+msgid "Your browser does not support all required features."
+msgstr ""
+
+#: includes/class-blurwp.php:163
+msgid "Image is too large. Maximum size is 50 megapixels."
+msgstr ""
+
+#: includes/class-blurwp.php:164
+msgid "Unsupported image format. Please use JPEG, PNG, or WebP."
+msgstr ""
+
+#: includes/class-blurwp.php:165
+msgid "Face detection timed out. Please try again."
+msgstr ""
