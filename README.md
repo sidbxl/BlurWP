@@ -1,14 +1,11 @@
 # BlurWP - Privacy-Focused Face Anonymization for WordPress
 
 [![WordPress](https://img.shields.io/badge/WordPress-5.8%2B-blue.svg)](https://wordpress.org/)
-[![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.2.5-green.svg)]()
 
 > **Privacy-first face detection and anonymization plugin for WordPress**
 
 BlurWP automatically detects faces in your WordPress media library images and allows you to blur or pixelate them to protect privacy. Built with modern web technologies and designed for ease of use.
-
-![BlurWP Demo](docs/images/demo.gif)
 
 ## ✨ Features
 
@@ -196,96 +193,11 @@ define('WP_DEBUG_LOG', true);
 define('WP_DEBUG_DISPLAY', false);
 ```
 
-## 🏗️ Development
-
-### Prerequisites
-- Node.js 18+
-- npm or yarn
-- PHP 7.4+
-- WordPress 5.8+ development environment
-
-### Setup
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/blurwp.git
-cd blurwp
-
-# Install dependencies
-npm install
-
-# Build for development
-npm run dev
-
-# Build for production
-npm run build
-
-# Run tests
-npm test
-```
-
-### File Structure
-```
-blurwp/
-├── assets/
-│   ├── css/           # Plugin styles
-│   ├── js/            # Compiled JavaScript bundle
-│   └── models/        # Face detection models
-├── includes/
-│   ├── class-blurwp.php      # Main plugin class
-│   ├── class-rest-api.php    # REST API endpoints
-│   ├── class-settings.php    # Settings page
-│   └── class-media.php       # Media Library integration
-├── src/               # TypeScript source
-│   ├── core/         # Editor, detector, API
-│   ├── effects/      # Blur and pixelate effects
-│   ├── types/        # TypeScript definitions
-│   └── utils/        # Constants and utilities
-├── docs/             # Documentation
-├── blurwp.php        # Plugin entry point
-└── README.md
-```
-
-### Build Commands
-```bash
-npm run dev      # Development build with watch
-npm run build    # Production build
-npm run lint     # Run ESLint
-npm run test     # Run tests
-```
-
-## 🤝 Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-### Quick Start
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit your changes: `git commit -m 'Add amazing feature'`
-4. Push to the branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
-### Code Standards
-- Follow WordPress Coding Standards for PHP
-- Use TypeScript strict mode for JavaScript
-- Write meaningful commit messages
-- Add tests for new features
-- Update documentation
-
-## 📄 License
-
-This project is licensed under the GPL v2 or later - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **face-api.js** - Face detection library by [justadudewhohacks](https://github.com/justadudewhohacks/face-api.js)
 - **TensorFlow.js** - Machine learning framework
 - **WordPress** - Content management system
-
-## 📞 Support
-
-- **Documentation**: [docs/](docs/)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/blurwp/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/blurwp/discussions)
 
 ---
 
