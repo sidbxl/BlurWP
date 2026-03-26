@@ -5,6 +5,8 @@
 
 > **Privacy-first face detection and anonymization plugin for WordPress**
 
+> ⚠️ **Disclaimer:** This is beta software, use with caution.
+
 BlurWP automatically detects faces in your WordPress media library images and allows you to blur or pixelate them to protect privacy. Built with modern web technologies and designed for ease of use.
 
 ## ✨ Features
