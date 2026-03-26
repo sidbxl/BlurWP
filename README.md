@@ -36,6 +36,12 @@ BlurWP automatically detects faces in your WordPress media library images and al
 - **Lazy Model Loading** - Models load on-demand
 - **Workspace Persistence** - Auto-saves work to sessionStorage
 
+## 📸 Screenshots
+
+![Screenshot 1](screenshot-1.jpg)
+![Screenshot 2](screenshot-2.jpg)
+![Screenshot 3](screenshot-3.jpg)
+
 ## 📋 Requirements
 
 - **WordPress**: 5.8 or higher
